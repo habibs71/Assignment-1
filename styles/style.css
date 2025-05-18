@@ -1,0 +1,149 @@
+
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+.primary-title{
+  font-size: 32px;
+  font-weight: 900;
+  color: #0D1321;
+  text-align: center;
+}
+.primary-describtion{
+  font-size: 16px;
+  color: #0D1321;
+  opacity: 70%;
+}
+
+.block-title{
+  font-size: 24px;
+  font-weight: bold;
+  color: #0D1321;
+}
+.btn{
+  font-size: 20px;
+  font-weight: 600px;
+  opacity: 70%;
+  padding: 12px 20px;
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.nav-style{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+  font-size: 28px;
+  color: #0D1321;
+  padding-left: 150px;
+}
+
+.btn-container{
+  padding-right: 150px;
+}
+.download-btn{
+  font-size: 20px;
+  font-weight: 600px;
+  color: #0D1321;
+  padding: 17px 24px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+.banner-immage-bg{
+  background-image: url(../assets/Hero-bg.png);
+  text-align: center;
+}
+
+.banner-container{
+  padding:  131px 221px;
+}
+
+.banner-title{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900px;
+}
+
+.banner-description{
+  font-size: 16px;
+  color: #0D1321;
+  opacity: 70%;
+
+}
+.contact-btn-container{
+  margin-top: 32px;
+}
+.contact-btn{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 600px;
+  background-color: #0D1321;
+  padding: 21px 24px;
+  border-radius: 8px;
+  
+}
+
+.section-describtion{
+  text-align: center;
+  margin: 24px 144px;
+}
+
+.web-dev-section{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 80px 150px;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
+  padding-top: 100px;
+  
+
+}
+
+.firs-block{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 47px 97px;
+  padding: 48px;
+  /* border: 1px solid tomato; */
+  background-color: white;
+  border-radius: 16px;
+}
+.first-block-container{
+  /* margin: 48px 97px; */
+  /* padding: 48px; */
+  width: 50%;
+}
+.second-block{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 47px 97px;
+  padding: 48px;
+  /* border: 1px solid tomato; */
+  background-color: white;
+  border-radius: 16px;
+}
+.second-block-container{
+  width: 50%;
+  /* border: 1px solid tomato; */
+  /* margin: 50px; */
+}
+
+.third-block{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 47px 97px;
+  padding: 48px;
+  /* border: 1px solid tomato; */
+  background-color: white;
+  border-radius: 16px;
+}
+.third-block-container{
+  width: 50%;
+  /* border: 1px solid tomato; */
+  /* margin: 50px; */
+}
