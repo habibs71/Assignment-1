@@ -66,13 +66,6 @@
   font-size: 48px;
   font-weight: 900px;
 }
-
-.banner-description{
-  font-size: 16px;
-  color: #0D1321;
-  opacity: 70%;
-
-}
 .contact-btn-container{
   margin-top: 32px;
 }
@@ -146,4 +139,23 @@
   width: 50%;
   /* border: 1px solid tomato; */
   /* margin: 50px; */
+}
+
+/* inspiration section */
+
+.inspiration{
+  margin: 150px;
+}
+.inspiration-describtion{
+  text-align: center;
+  margin-bottom: 48px;
+}
+iframe{
+  border-radius: 16px;
+}
+.video{
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid rgb(215, 215, 215);
+  padding: 32px;
 }
