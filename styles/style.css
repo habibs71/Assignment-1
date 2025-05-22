@@ -6,6 +6,15 @@
 }
 
 /* shared style */
+.allign-center{
+  text-align: center;
+}
+.allign-start{
+  text-align: start;
+}
+.allign-end{
+  text-align: end;
+}
 .primary-title{
   font-size: 32px;
   font-weight: 900;
@@ -158,4 +167,30 @@ iframe{
   border-radius: 16px;
   border: 1px solid rgb(215, 215, 215);
   padding: 32px;
+}
+/* Target Section */
+
+.target{
+  margin: 50px 150px;
+}
+
+.target-container{
+  display: flex;
+  gap: 32px;
+  text-align: center;
+}
+.target-box-one{
+  background-color: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+  border-radius: 16px;
+}
+.target-box-two{
+  background-color: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+  border-radius: 16px;
+}
+.target-box-three{
+  background-color: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+  border-radius: 16px;
 }
